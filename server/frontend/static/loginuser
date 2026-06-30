@@ -1,0 +1,3 @@
+$ curl -X POST http://127.0.0.1:8000/djangoapp/login -d "username=admin" -d "password=password123" -c cookies.txt
+
+{"userName": "admin", "status": "Authenticated"}
