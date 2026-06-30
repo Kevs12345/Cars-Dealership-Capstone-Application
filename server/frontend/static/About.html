@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/稳定/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .team-card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .team-card:hover {
+            transform: translateY(-5px);
+        }
+        .team-img {
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Django Dealership</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./About.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-dark">About Our Team</h1>
+            <p class="lead text-muted">We are dedicated to delivering the best car dealership experience through cutting-edge technology.</p>
+        </div>
+
+        <div class="row g-4">
+            
+            <div class="col-md-4">
+                <div class="card team-card h-100">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=80" class="card-img-top team-img" alt="CEO Portrait">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">John Doe</h5>
+                        <p class="text-primary fw-semibold m-0">Chief Executive Officer</p>
+                        <p class="card-text text-muted small my-3">John has over 15 years of experience in the automotive industry and drives our strategic vision forward.</p>
+                        <a href="mailto:john.doe@example.com" class="btn btn-outline-dark btn-sm">john.doe@example.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card team-card h-100">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80" class="card-img-top team-img" alt="CTO Portrait">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Jane Smith</h5>
+                        <p class="text-primary fw-semibold m-0">Chief Technology Officer</p>
+                        <p class="card-text text-muted small my-3">Jane leads our engineering team and built our entire full-stack car management system from scratch.</p>
+                        <a href="mailto:jane.smith@example.com" class="btn btn-outline-dark btn-sm">jane.smith@example.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card team-card h-100">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=500&q=80" class="card-img-top team-img" alt="Manager Portrait">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Robert Johnson</h5>
+                        <p class="text-primary fw-semibold m-0">Product Manager</p>
+                        <p class="card-text text-muted small my-3">Robert bridges the gap between our clients and developers, ensuring smooth digital experiences.</p>
+                        <a href="mailto:robert.j@example.com" class="btn btn-outline-dark btn-sm">robert.j@example.com</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
